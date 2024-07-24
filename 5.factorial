@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+unsigned long long factorial(int n) {
+    if (n == 0)
+        return 1;
+    return n * factorial(n - 1);
+}
+
+int main() {
+	printf("radhika-192210126\n");
+    int num = 5;
+    printf("Factorial of %d is %llu\n", num, factorial(num));
+    return 0;
+}
